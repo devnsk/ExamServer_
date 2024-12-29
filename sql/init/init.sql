@@ -1,0 +1,4 @@
+
+CREATE USER postgres WITH PASSWORD 'root';
+GRANT ALL PRIVILEGES ON DATABASE portal TO postgres;
+CREATE DATABASE portal;
